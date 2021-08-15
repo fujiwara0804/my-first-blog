@@ -1,0 +1,5 @@
+1.仮想環境スタート
+    cd djangogirls
+    . mypython/bin/activate
+2.仮想環境終了
+    deactivate

@@ -1,0 +1,28 @@
+Your API token
+708f50591b40f9610412b382c860deb1e7f96a96
+Warning: our API is new and in beta and not officially supported, and may change at any time, and it is not to be relied upon, and may cause unpredictable growth of extra ears. Extra ears not guaranteed.
+
+Use this token for our API by setting a request header called Authorization, followed by Token <token>, eg:
+
+import requests
+username = 'esfujiwara'
+token = '708f50591b40f9610412b382c860deb1e7f96a96'
+
+response = requests.get(
+    'https://www.pythonanywhere.com/api/v0/user/{username}/cpu/'.format(
+        username=username
+    ),
+    headers={'Authorization': 'Token {token}'.format(token=token)}
+)
+if response.status_code == 200:
+    print('CPU quota info:')
+    print(response.content)
+else:
+    print('Got unexpected status code {}: {!r}'.format(response.status_code, response.content))
+                        
+TIP: Your API token is also available from pythonanywhere consoles, tasks and webapps, as an Environment Variable, $API_TOKEN
+
+API documentation
+You can find the latest documentation in our help pages:
+
+help.pythonanywhere.com/pages/API
