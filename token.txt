@@ -26,3 +26,16 @@ API documentation
 You can find the latest documentation in our help pages:
 
 help.pythonanywhere.com/pages/API
+
+**** github token 2021/8/15 *****
+(保管命令は下記のとおり　※デプロイ)
+git push -u origin master
+
+fujiwara0804
+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 
+
+**** pythonanywhere.com　への接続 ****
+    https://esfujiwara.pythonanywhere.com/admin/
+    id:admin
+    pw:himitu1324
+    
