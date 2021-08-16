@@ -32,10 +32,12 @@ help.pythonanywhere.com/pages/API
 git push -u origin master
 
 fujiwara0804
-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 
+**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
+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 
 
 **** pythonanywhere.com　への接続 ****
     https://esfujiwara.pythonanywhere.com/admin/
     id:admin
     pw:himitu1324
+
     
